@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rimo_main_gradaint"
+    tools:context=".RegisterActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/title_layout"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:background="#006FBE"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Account Opening Form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/selfi_id"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:text="+Take A Selfi "
+                    android:background="#A5A5A5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+
+                <Button
+                    android:id="@+id/frontSide_id"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:text="+NID Front Side"
+                    android:background="#A5A5A5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+
+                <Button
+                    android:id="@+id/backSide_id"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:text="+NID Back Side"
+                    android:background="#A5A5A5"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+
+                <EditText
+                    android:id="@+id/name_as_nid"
+                    android:background="@drawable/input_reg"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/name_as_nid"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/phone_id"
+                    android:layout_marginTop="5dp"
+                    android:inputType="number"
+                    android:background="@drawable/input_reg"
+                    android:padding="10dp"
+                    android:hint="@string/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/retype_phone_id"
+                    android:layout_marginTop="5dp"
+                    android:inputType="number"
+                    android:background="@drawable/input_reg"
+                    android:padding="10dp"
+                    android:hint="@string/retype_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/password_id"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/input_reg"
+                    android:padding="10dp"
+                    android:hint="@string/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/retype_password_id"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/input_reg"
+                    android:padding="10dp"
+                    android:hint="@string/retype_password"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <Button
+                    android:id="@+id/create_accout_id"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/reg_btn"
+                    android:textAllCaps="false"
+                    android:text="@string/create_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

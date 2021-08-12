@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rimo_main_gradaint"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include
+                            layout="@layout/title_layout"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/layout_color"
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="start"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:padding="3dp"
+                                    android:text="@string/phone2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/phoneNumber_id"
+                                    android:layout_marginTop="20dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:padding="3dp"
+                                    android:text="@string/_01744431962"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:padding="3dp"
+                                    android:text="@string/account_status"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/on_id"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:padding="3dp"
+                                    android:text="@string/on"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginBottom="20dp"
+                                    android:padding="3dp"
+                                    android:text="@string/opening_date"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:id="@+id/joining_date_id"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:padding="3dp"
+                                    android:text="@string/_10_08_21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_image_id"
+                            android:src="@drawable/image_icon"
+                            android:layout_marginTop="-175dp"
+                            android:background="@drawable/circleview_image"
+                            android:layout_gravity="end"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"/>
+
+
+
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="#AA9E9E"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:background="@drawable/color_card_gradiant"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:weightSum="2"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:layout_weight="1"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:text="@string/rimo_vertual_card"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:gravity="end"
+                                android:layout_weight="1"
+                                android:text="@string/_1000_usd"
+                                android:textStyle="bold"
+                                android:textColor="#062460"
+                                android:textSize="30sp"
+                                android:layout_marginRight="2dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="25sp"
+                                android:text="1254"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="25sp"
+                                android:text=" 1251 "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="25sp"
+                                android:text=" 1212 "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="25sp"
+                                android:text=" 1212 "
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textSize="15sp"
+                                android:padding="2dp"
+                                android:textColor="@color/black"
+                                android:text="@string/card_holder_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:id="@+id/holderName_id"
+                                android:textSize="15sp"
+                                android:padding="2dp"
+                                android:textColor="@color/black"
+                                android:text="@string/doyal_babu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:padding="2dp"
+                                android:textSize="15sp"
+                                android:textColor="@color/black"
+                                android:text="@string/expire_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:id="@+id/expire_date_id"
+                                android:textSize="15sp"
+                                android:padding="2dp"
+                                android:textColor="@color/black"
+                                android:text="@string/_10_08_21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/frontSize_id"
+                            android:layout_margin="2dp"
+                            android:background="#D6D7D7"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:text="@string/front_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:id="@+id/backSize_id"
+                            android:layout_margin="2dp"
+                            android:background="#D6D7D7"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:text="@string/backsize"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/add_balance_id"
+                    android:backgroundTint="@color/btn_color_p"
+                    android:textSize="20sp"
+                    android:textColor="@color/green"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:text="@string/add_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+                <Button
+                    android:id="@+id/send_balance_id"
+                    android:backgroundTint="@color/btn_color_p"
+                    android:textSize="20sp"
+                    android:textColor="@color/yellow"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:text="@string/send_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+                <Button
+                    android:id="@+id/withdraw_id"
+                    android:backgroundTint="@color/btn_color_p"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:text="@string/withdraw_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+                <Button
+                    android:id="@+id/transection_report_id"
+                    android:backgroundTint="@color/btn_color_p"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="false"
+                    android:text="@string/transection_report"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

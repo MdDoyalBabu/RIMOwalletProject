@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RIMOApps</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="rimo">RIMO</string>
+    <string name="wallet">Wallet</string>
+    <string name="secure_your_money">Secure Your Money</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="name_as_nid">Name As NID</string>
+    <string name="phone">Phone</string>
+    <string name="retype_phone">Retype Phone</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="phone2">Phone :</string>
+    <string name="_01744431962">01744431962</string>
+    <string name="account_status">Account status :</string>
+    <string name="on">On</string>
+    <string name="opening_date">Opening Date :</string>
+    <string name="_10_08_21">10/08/21</string>
+    <string name="rimo_vertual_card">Rimo Vertual Card</string>
+    <string name="_1000_usd">1000 usd</string>
+    <string name="_1212">1212</string>
+    <string name="_1712"> 1712 </string>
+    <string name="card_holder_name">Card Holder Name :</string>
+    <string name="doyal_babu">Doyal Babu</string>
+    <string name="expire_date">Expire Date :</string>
+    <string name="front_size">Front Size</string>
+    <string name="backsize">BackSize</string>
+    <string name="add_balance">Add Balance</string>
+    <string name="send_balance">Send Balance</string>
+    <string name="withdraw_balance">Withdraw Balance</string>
+    <string name="transection_report">Transection Report</string>
+</resources>
